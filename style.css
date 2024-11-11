@@ -425,9 +425,12 @@ span{
 }
 .testimonials-box img{
     width: 15rem;
+    height: 150px;
+    margin-bottom: 25px;
     border-radius: 50%;
     border: 3px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
+    object-fit: cover;
 }
 .wrapper{
     display: grid;
@@ -461,7 +464,7 @@ span{
     font-size: 2.8rem;
 }
 testimonial-item p{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 #star{
     color: gold;
